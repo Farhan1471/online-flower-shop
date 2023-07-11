@@ -1,0 +1,58 @@
+.primary-btn{
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.banner{
+    background-color: #E554731A;
+    padding: 5px 20px 0px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding-left: 240px;
+}
+.banner-lrg{
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 0px;
+    padding: 197px 97px 32px 0px;
+}
+.para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    padding: 0px 171px 20px 0px;
+}
+.flower{
+    width: 635px;
+    height: 800px; 
+    padding-right: 200px;
+}
+/* main section style */
+
+/* featured flower style */
+.featured-flowers{
+
+}
+.heading{
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800; 
+    padding-top: 178px;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 0px;
+}
