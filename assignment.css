@@ -6,9 +6,9 @@ body{
     border-radius: 5px;
     border: 0;
     color: #FFF;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 15px 25px;
 }
 .banner{
     background-color: #E554731A;
@@ -46,9 +46,9 @@ body{
 .description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 14px;
-    font-weight: 50;
-    line-height: 30px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 18px;
 }
 
 /* fuler 3 ta */
@@ -64,8 +64,8 @@ body{
     display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15); 
-    width: 464px;
-    height: 538px;
+    width: 330px;
+    height: 400px;
     justify-content: center;
     margin-right: 20px;
     align-items: last baseline;
@@ -75,8 +75,8 @@ body{
     display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 330px;
+    height: 400px;
     justify-content: center;
     margin-right: 20px;
     align-items: start;
@@ -85,8 +85,8 @@ body{
     display: flex;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 330px;
+    height: 400px;
     justify-content: center;
     align-items: last baseline;
 }
@@ -108,15 +108,15 @@ margin: 0px auto;
     display: flex;
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 15px;
-    font-weight: 150;
+    font-size: 16px;
+    font-weight: 550;
     line-height: 35px;
 }
 .delivery{
     padding: 0px 0px 50px 120px;
 }
 .type{
-    padding: 0px 220px 50px 155px;
+    padding: 0px 208px 50px 80px;
 }
 .discount{
     border-radius: 8px;
@@ -134,9 +134,9 @@ margin: 0px auto;
     border-radius: 5px;
     border: 0;
     color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 20px 43px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 30px;
     display: inline-flex;
     text-align: center;
 } 
@@ -162,9 +162,27 @@ margin: 0px auto;
     text-align: center;
     padding-top: 100px;
 }
+.instagramhead{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.instagramdescription{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 20px;
+}
 /* four flower style */
 .fourflower{
     display: flex; 
+    padding: 0px 600px 0px 10px;
+    padding-left: 230px;
 }
 .rectflower{
     width: 25%;
@@ -173,7 +191,50 @@ margin: 0px auto;
 
 /* newsletter er part jeta mail deyyy */
 .newsletter{
-    background-image: url();
+    background-image: url(Rectangle 9.png);
+}
+.newsletterdiv{
+    padding: 25px;
+    justify-content: center;
+    text-align: center;
+}
+.newsletter-title{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 18px;
+    line-height: 20px;
+}
+.newsletter-discount{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+
+.newsletterdiv input{
+    width: 700px;
+    height: 64px; 
+    background: #FFF;
+    border-radius: 0px; 
+    /* border: none; */
+    /* padding: 5px;
+    margin-right: 10px; */
+}
+.subscribe{
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 15px 22px;
 }
 /* all about footer */
 .footer-start{
@@ -182,8 +243,9 @@ margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
-    max-width: 2500px;
+    height: 300px;
+    max-width: 2800px;
+    padding-left: 0%;
 }
 .footer-nice{
     color: #E55473;
@@ -193,20 +255,21 @@ margin: 0px auto;
     text-align: center;
     font-size: 16px;
     font-weight: 700;
-    font-size: 48px;
-    font-weight: 800; 
+    font-size: 35px;
+    font-weight: 700; 
 }
 .footer-descript{
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 12px;
+    font-weight: 50px;
+    line-height: 18px;
 }
 .footer-endgame{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 50;
+    line-height: 15px;
     padding-top: 5px;
 }
