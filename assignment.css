@@ -52,7 +52,43 @@ body{
 }
 
 /* fuler 3 ta */
-.pngwing6{
+.border-flower{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.pink-flower{
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15); 
+    width: 464px;
+    height: 538px;
+    justify-content: center;
+    margin-right: 20px;
+    align-items: last baseline;
+}
+
+.red-flower{
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    justify-content: center;
+    margin-right: 20px;
+    align-items: start;
+}
+.yellow-flower{
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    justify-content: center;
+    align-items: last baseline;
 }
 
 .support{
@@ -125,4 +161,52 @@ margin: 0px auto;
 .instagram{
     text-align: center;
     padding-top: 100px;
+}
+/* four flower style */
+.fourflower{
+    display: flex; 
+}
+.rectflower{
+    width: 25%;
+    padding: 70px 0px 0px 60px;
+}
+
+/* newsletter er part jeta mail deyyy */
+.newsletter{
+    background-image: url();
+}
+/* all about footer */
+.footer-start{
+    background-color: #111010;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    max-width: 2500px;
+}
+.footer-nice{
+    color: #E55473;
+}
+.footer-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    font-weight: 800; 
+}
+.footer-descript{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-endgame{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
 }
