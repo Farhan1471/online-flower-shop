@@ -1,3 +1,6 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .primary-btn{
     background: #E55473;
     border-radius: 5px;
@@ -9,50 +12,117 @@
 }
 .banner{
     background-color: #E554731A;
-    padding: 5px 20px 0px 90px;
+    padding: 35px 25px 0px 150px;
     display: flex;
-    justify-content: space-between;
-    align-items:center ;
-    padding-left: 240px;
+    /* justify-content: center;
+    align-items:center ; */
 }
 .banner-lrg{
-    font-size: 80px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 501;
     color: #272727;
     margin-bottom: 0px;
-    padding: 197px 97px 32px 0px;
 }
 .para{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px; 
-    padding: 0px 171px 20px 0px;
+    padding: 10px 0px 20px 0px;
 }
 .flower{
-    width: 635px;
-    height: 800px; 
-    padding-right: 200px;
+    width: 30%;
+    padding-left: 200px;
 }
 /* main section style */
 
 /* featured flower style */
-.featured-flowers{
-
-}
 .heading{
     text-align: center;
-    font-family: Lato;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 800; 
-    padding-top: 178px;
+    padding-top: 70px;
 }
 .description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 50;
     line-height: 30px;
-    padding-top: 0px;
+}
+
+/* fuler 3 ta */
+.pngwing6{
+}
+
+.support{
+background: rgba(39, 39, 39, 0.05);
+margin: 130px 0px;
+max-width: 1240px;
+height: 250px;
+margin: 0px auto;
+}
+.grpa{
+    padding: 20px 0px 0px 200px;
+}
+.grpb{
+    padding: 50px 280px 0px 300px;
+}
+.sprt{
+    display: flex;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 150;
+    line-height: 35px;
+}
+.delivery{
+    padding: 0px 0px 50px 120px;
+}
+.type{
+    padding: 0px 220px 50px 155px;
+}
+.discount{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    /* height: 620px; */
+    margin-top: 128px;
+}
+.pera{
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 300px;
+}
+.signupbtn{
+    background: #E55473;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    display: inline-flex;
+    text-align: center;
+} 
+.off{
+   color:#E55473 ; 
+}
+.signupdescription{
+    color: rgba(39, 39, 39, 0.60);
+    /* padding: 0px 186px 52px 423px; */
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 400;
+} 
+.signinfo{
+    display: flex;
+}
+.rose{
+    padding: 100px 50px 100px 150px;
+    width: 200px;
+    height: 250px;
+}
+.instagram{
+    text-align: center;
+    padding-top: 100px;
 }
